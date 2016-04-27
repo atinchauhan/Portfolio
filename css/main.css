@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.row {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%
+}
+.col-4{
+    width: 33.33%
+}
+.col-5 {
+    width: 41.66%
+}
+.col-6 {
+    width: 50%
+}
+.col-7 {
+    width: 58.33%
+}
+.col-8 {
+    width: 66.66%
+}
+.col-9 {
+    width: 75%
+}
+.col-10 {
+    width: 83.33%
+}
+.col-11 {
+    width: 91.66%
+}
+.col-12 {
+    width: 100%
+}
+.superior {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content:center;
+    border-bottom: 2px solid #736363;
+    margin-bottom: 10px
+}
+.name {
+    text-align: right;
+    font-size: 200%;
+    line-height: 80%;
+    padding-top: 2%;
+    padding-right: 1%;
+    color:#353535;
+}
+.image {
+    position: relative;
+}
+img {
+    height: inherit;
+    width: inherit;
+}
+.ninja {
+    font-size: 50%;
+    color:#828282;
+}
+.middle {
+    position: relative;
+    height: 300px;
+}
+.bottom {
+    display: flex;
+    flex-direction: column;
+}
+.btmrow1 {
+    font-size: 120%;
+    padding-left: 2%;
+    color:#828282;
+}
+.btmrow2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.img1 {
+    display: flex;
+    justify-content: center;
+    height: 10%;
+}
+.img2 {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.img3 {
+    display: flex;
+    justify-content: center;
+    height: 10%;
+}
+.btmnames {
+    display: flex;
+    font-weight: bold;
+    color:#565656;
+}
+.apple {
+    text-align: center;
+}
+.india {
+    text-align: center;
+}
+.asus {
+    text-align: center;
+}
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 80%;
+    color:#828282;
+}
