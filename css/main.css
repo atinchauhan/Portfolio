@@ -66,6 +66,10 @@
     padding-top: 2%;
     padding-right: 1%;
     color:#353535;
+    transition: all 1s;
+}
+.name:hover {
+    color:#3799B7;
 }
 .image {
     position: relative;
