@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+    transition: all .5s;
 }
 
 .row {
@@ -67,6 +68,9 @@
     padding-right: 1%;
     color:#353535;
 }
+.name:hover {
+    font-size: 230%;
+}
 .image {
     position: relative;
 }
@@ -77,6 +81,9 @@ img {
 .ninja {
     font-size: 50%;
     color:#828282;
+}
+.ninja:hover {
+    font-size: 70%;
 }
 .middle {
     position: relative;
